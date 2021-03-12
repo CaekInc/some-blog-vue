@@ -1,9 +1,11 @@
 <template lang="pug">
   .page
     section-header(
-      title="Caek blog"
-      subtitle="Some front-end features for me"
+      title="CaekInc blog"
+      subtitle="Помощь для изучения фронта"
     )
+
+    app-options
 
     post-list
 </template>
