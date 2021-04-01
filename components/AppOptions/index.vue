@@ -1,8 +1,11 @@
-<template lang="pug">
-section.section
-  .content
-    .app-options
-      switcher-color-mode
+<template>
+  <section class="section">
+    <div class="content">
+      <div class="app-options">
+        <switcher-color-mode></switcher-color-mode>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

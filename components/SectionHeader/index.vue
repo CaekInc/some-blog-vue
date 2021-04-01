@@ -1,14 +1,10 @@
-<template lang="pug">
-  section.section
-    .content
-      h1.sh__title(
-        class="h1"
-      ) {{ title }}
-
-      p.sh__subtitle(
-        v-if="subtitle"
-        class="body2 regular"
-      ) {{ subtitle }}
+<template>
+  <section class="section">
+    <div class="content">
+      <h1 class="sh__title h1">{{ title }}</h1>
+      <p class="sh__subtitle body2 regular" v-if="subtitle">{{ subtitle }}</p>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

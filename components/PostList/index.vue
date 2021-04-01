@@ -1,11 +1,17 @@
-<template lang="pug">
-section.section
-  .content
-    p.pl__count-icon(src='~/assets/icons/list.svg', alt='icon-list')
-    | Total {{ posts.length }} posts
-
-  .pl__items
-    post-card(v-for='post in posts', :key='post.id', :post='post')
+<template>
+  <section class="section">
+    <div class="content">
+      <p
+        class="pl__count-icon"
+        src="~/assets/icons/list.svg"
+        alt="icon-list"
+      ></p>
+      Total {{ posts.length }} posts
+    </div>
+    <div class="pl__items">
+      <post-card v-for="post in posts" :key="post.id" :post="post"></post-card>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

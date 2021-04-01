@@ -1,13 +1,14 @@
-<template lang="pug">
-section.section
-  .content
-    .footer
-      a.secondary(
-        href="mailto:example@mail.com?subject=Nuxt blog"
-      ) Contact us
-      p.footer__copyright(
-        class="body3 regular"
-      ) {{ copyright }}
+<template>
+  <section class="section">
+    <div class="content">
+      <div class="footer">
+        <a class="secondary" href="mailto:example@mail.com?subject=Nuxt blog"
+          >Contact us</a
+        >
+        <p class="footer__copyright body3 regular">{{ copyright }}</p>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

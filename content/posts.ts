@@ -3,7 +3,7 @@ import { Post } from './Post'
 export default [
   {
     id: 1,
-    title: 'Post 1',
+    title: 'Мисниколай - сиди, изучай',
     desc:
       'A short description of the post to keep the user interested.' +
       ' Description can be of different lengths, blocks are aligned' +
@@ -13,7 +13,7 @@ export default [
   },
   {
     id: 2,
-    title: 'Post 2',
+    title: 'Vue день первый',
     desc:
       'A short description of the post to keep the user interested.' +
       ' Description can be of different lengths, blocks are aligned' +
@@ -23,7 +23,7 @@ export default [
   },
   {
     id: 3,
-    title: 'Post 3',
+    title: 'Изучить PUG',
     desc:
       'A short description of the post to keep the user interested.' +
       ' Description can be of different lengths, blocks are aligned' +
@@ -33,7 +33,7 @@ export default [
   },
   {
     id: 4,
-    title: 'Post 4',
+    title: 'Посмотреть как это работает',
     desc:
       'A short description of the post to keep the user interested.' +
       ' Description can be of different lengths, blocks are aligned' +
@@ -43,7 +43,7 @@ export default [
   },
   {
     id: 5,
-    title: 'Post 5',
+    title: 'Попытка номер 5',
     desc:
       'A short description of the post to keep the user interested.' +
       ' Description can be of different lengths, blocks are aligned' +

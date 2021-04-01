@@ -1,16 +1,15 @@
-<template lang="pug">
-  section.section
-    .content
-      .ep__container
-        section-header(
+<template>
+  <section class="section">
+    <div class="content">
+      <div class="ep__container">
+        <section-header
           :title="errorText.title"
           :subtitle="errorText.subtitle"
-        )
-
-        nuxt-link.ep__link(
-          class="primary"
-          to="/"
-        ) Home page
+        ></section-header>
+        <nuxt-link class="ep__link primary" to="/">Home page</nuxt-link>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

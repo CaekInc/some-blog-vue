@@ -1,13 +1,12 @@
-<template lang="pug">
-  .page
-    section-header(
+<template>
+  <div class="page">
+    <section-header
       title="CaekInc blog"
       subtitle="Помощь для изучения фронта"
-    )
-
-    app-options
-
-    post-list
+    ></section-header>
+    <app-options></app-options>
+    <post-list></post-list>
+  </div>
 </template>
 
 <script lang="ts">

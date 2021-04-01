@@ -1,12 +1,14 @@
-<template lang="pug">
-  section.section
-    .content
-      img.pf__image(
+<template>
+  <section class="section">
+    <div class="content">
+      <img
+        class="pf__image"
         :src="getDynamicFile(post.img)"
         :alt="`post-image-${post.id}`"
-      )
-
-      .pf__md(v-html="getDynamicFile(post.file).default")
+      />
+      <div class="pf__md" v-html="getDynamicFile(post.file).default"></div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

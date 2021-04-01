@@ -1,12 +1,13 @@
-<template lang="pug">
-nuxt-link.pc(:to="pageUrl")
-  img.pc__img(
-    :src="getDynamicFile(post.img)"
-    :alt="`post-image-${post.id}`"
-  )
-
-  p.pc__title(class="body1 medium") {{ post.title }}
-  p.pc__subtitle(class="body3 regular") {{ post.desc }}
+<template>
+  <nuxt-link class="pc" :to="pageUrl"
+    ><img
+      class="pc__img"
+      :src="getDynamicFile(post.img)"
+      :alt="`post-image-${post.id}`"
+    />
+    <p class="pc__title body1 medium">{{ post.title }}</p>
+    <p class="pc__subtitle body3 regular">{{ post.desc }}</p>
+  </nuxt-link>
 </template>
 
 <script lang="ts">
@@ -50,6 +51,7 @@ export default Vue.extend({
   &__img {
     max-width: 100%;
     display: block;
+    height: 200px;
   }
   &__title {
     margin: 16px 0 12px;
